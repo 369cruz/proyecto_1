@@ -24,3 +24,5 @@ model.fit(x_train, y_train, epochs=10)
 # Evalúa el modelo en los datos de prueba
 test_loss, test_acc = model.evaluate(x_test, y_test, verbose=2)
 print('\nTest accuracy:', test_acc)
+
+# Comentario de prueba
